@@ -1,0 +1,23 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--spacing/md);
+  min-height: 100%;
+  padding: var(--spacing/md);
+  background: var(--background/surface);
+  border-radius: var(--spacing/xs);
+}
+
+@media (min-width: 1024px) {
+  .home-page {
+    padding: var(--spacing/md);
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .home-page {
+    padding: var(--spacing/sm);
+  }
+}

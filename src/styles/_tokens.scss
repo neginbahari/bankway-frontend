@@ -1,0 +1,86 @@
+// Negin Design System — Figma variable names (exact paths from Negin-Design-System file)
+
+:root {
+  /* Background */
+  --background/surface: #ffffff;
+  --background/brand-tint: #e2edf3;
+  --background/primary: #f7f7f7;
+  --background/secondary: #f0f0f0;
+  --background/background: #f7f7f7;
+
+  /* Text */
+  --text/high-contrast: #2f2f2f;
+  --text/primary: #7a7a7a;
+  --text/brand-shade: #28628f;
+
+  /* Border */
+  --border/primary: #c2c2c2;
+  --border/secondary: #d6d6d6;
+  --border/divider: #f0f0f0;
+  --border/disable: #e6e6e6;
+  --border/active: #a3a3a3;
+  --border/1: 1px;
+
+  /* Semantic */
+  --semantic/success/tint: #def7ec;
+  --semantic/success/shade: #057a55;
+
+  /* Spacing */
+  --spacing/null: 0px;
+  --spacing/2xs: 2px;
+  --spacing/2xs---static: 2px;
+  --spacing/xs: 4px;
+  --spacing/sm: 8px;
+  --spacing/md: 12px;
+  --spacing/lg: 16px;
+
+  /* Size */
+  --size/spacing/4: 4px;
+  --size/spacing/8: 8px;
+  --size/radius/4: 4px;
+
+  /* Radius & component */
+  --radius/full: 9999px;
+  --component: 8px;
+  --sm: 8px;
+
+  /* Typography — Title Large */
+  --typography/title/large/family: 'Vazirmatn', sans-serif;
+  --typography/title/large/size: 16px;
+  --typography/title/large/weight: 500;
+  --typography/title/large/lineheight: 24px;
+
+  /* Typography — Title Medium */
+  --typography/title/medium/family: 'Vazirmatn', sans-serif;
+  --typography/title/medium/size: 14px;
+  --typography/title/medium/weight: 500;
+  --typography/title/medium/lineheight: 24px;
+
+  /* Typography — Label Large */
+  --typography/label/large/family: 'Vazirmatn', sans-serif;
+  --typography/label/large/size: 12px;
+  --typography/label/large/weight: 500;
+  --typography/label/large/lineheight: 20px;
+
+  /* Typography — Label Medium */
+  --typography/label/medium/family: 'Vazirmatn', sans-serif;
+  --typography/label/medium/size: 12px;
+  --typography/label/medium/weight: 400;
+  --typography/label/medium/lineheight: 20px;
+
+  /* Typography — Label Small */
+  --typography/label/small/family: 'Vazirmatn', sans-serif;
+  --typography/label/small/size: 11px;
+  --typography/label/small/weight: 400;
+  --typography/label/small/lineheight: 20px;
+
+  /* Typography — Body Small */
+  --typography/body/small/family: 'Vazirmatn', sans-serif;
+  --typography/body/small/size: 14px;
+  --typography/body/small/weight: 400;
+  --typography/body/small/lineheight: 24px;
+
+  /* Legacy caption (pagination) */
+  --fontfamily: 'Vazirmatn', sans-serif;
+  --font/size/2xs: 12px;
+}

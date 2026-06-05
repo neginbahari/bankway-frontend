@@ -1,0 +1,10 @@
+<main class="home-page">
+  <app-page-header (createDocuments)="onCreateDocuments()" />
+
+  <app-securities-table
+    [rows]="filteredRows()"
+    [totalItems]="totalItems"
+    (searchChange)="onSearchChange($event)"
+    (pageSizeChange)="onPageSizeChange($event)"
+  />
+</main>
