@@ -1,51 +1,51 @@
 @mixin title-large {
-  font-family: var(--typography/title/large/family);
-  font-size: var(--typography/title/large/size);
-  font-weight: var(--typography/title/large/weight);
-  line-height: var(--typography/title/large/lineheight);
-  color: var(--text/high-contrast);
-  font-feature-settings: 'ss01' 1;
+  font-family: var(--typography-title-large-family);
+  font-size: var(--typography-title-large-size);
+  font-weight: var(--typography-title-large-weight);
+  line-height: var(--typography-title-large-lineheight);
+  color: var(--text-high-contrast);
+  font-feature-settings: "ss01" 1;
 }
 
 @mixin title-medium {
-  font-family: var(--typography/title/medium/family);
-  font-size: var(--typography/title/medium/size);
-  font-weight: var(--typography/title/medium/weight);
-  line-height: var(--typography/title/medium/lineheight);
-  font-feature-settings: 'ss01' 1;
+  font-family: var(--typography-title-medium-family);
+  font-size: var(--typography-title-medium-size);
+  font-weight: var(--typography-title-medium-weight);
+  line-height: var(--typography-title-medium-lineheight);
+  font-feature-settings: "ss01" 1;
 }
 
 @mixin label-large {
-  font-family: var(--typography/label/large/family);
-  font-size: var(--typography/label/large/size);
-  font-weight: var(--typography/label/large/weight);
-  line-height: var(--typography/label/large/lineheight);
-  color: var(--text/high-contrast);
-  font-feature-settings: 'ss01' 1;
+  font-family: var(--typography-label-large-family);
+  font-size: var(--typography-label-large-size);
+  font-weight: var(--typography-label-large-weight);
+  line-height: var(--typography-label-large-lineheight);
+  color: var(--text-high-contrast);
+  font-feature-settings: "ss01" 1;
 }
 
 @mixin label-medium {
-  font-family: var(--typography/label/medium/family);
-  font-size: var(--typography/label/medium/size);
-  font-weight: var(--typography/label/medium/weight);
-  line-height: var(--typography/label/medium/lineheight);
-  font-feature-settings: 'ss01' 1;
+  font-family: var(--typography-label-medium-family);
+  font-size: var(--typography-label-medium-size);
+  font-weight: var(--typography-label-medium-weight);
+  line-height: var(--typography-label-medium-lineheight);
+  font-feature-settings: "ss01" 1;
 }
 
 @mixin label-small {
-  font-family: var(--typography/label/small/family);
-  font-size: var(--typography/label/small/size);
-  font-weight: var(--typography/label/small/weight);
-  line-height: var(--typography/label/small/lineheight);
-  color: var(--text/primary);
-  font-feature-settings: 'ss01' 1;
+  font-family: var(--typography-label-small-family);
+  font-size: var(--typography-label-small-size);
+  font-weight: var(--typography-label-small-weight);
+  line-height: var(--typography-label-small-lineheight);
+  color: var(--text-primary);
+  font-feature-settings: "ss01" 1;
 }
 
 @mixin body-small {
-  font-family: var(--typography/body/small/family);
-  font-size: var(--typography/body/small/size);
-  font-weight: var(--typography/body/small/weight);
-  line-height: var(--typography/body/small/lineheight);
-  color: var(--text/primary);
-  font-feature-settings: 'ss01' 1;
+  font-family: var(--typography-body-small-family);
+  font-size: var(--typography-body-small-size);
+  font-weight: var(--typography-body-small-weight);
+  line-height: var(--typography-body-small-lineheight);
+  color: var(--text-primary);
+  font-feature-settings: "ss01" 1;
 }

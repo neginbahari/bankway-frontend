@@ -1,6 +1,5 @@
 # Bankway Frontend
 
-Angular 20 implementation of the **Basic Information** screen from [Negin Design System (Figma)](https://www.figma.com/design/eZwCEGzZ2Bolp8Rh3UVHc1/Negin-Design-System?node-id=19983-2433).
 
 ## Stack
 
